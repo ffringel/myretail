@@ -1,5 +1,6 @@
 import React from "react";
 
+//function to render main menu
 const MainMenu = () => {
   return (
     <div className="ui red seven item inverted menu">
@@ -17,6 +18,7 @@ const MainMenu = () => {
   );
 };
 
+//function to render the secondary menu
 const SecondaryMenu = () => {
   return (
     <div className="ui secondary inverted menu">
