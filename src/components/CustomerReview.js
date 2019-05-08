@@ -80,24 +80,16 @@ class CustomerReview extends Component {
         <div className="ui divider" />
         {stats}
         <div className="ui divider" />
-        <table className="ui striped table">
-          <thead>
-            <tr>
-              <th>PRO</th>
-              <th>CON</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="top aligned">
-              <td>
-                <div className="ui comments">{proReviews}</div>
-              </td>
-              <td>
-                <div className="ui comments">{conReviews}</div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="ui stackable two column grid">
+          <div className="column">
+            <h3 className="ui header">PRO</h3>
+            <div className="ui comments">{proReviews}</div>
+          </div>
+          <div className="column">
+            <h3 className="ui header">CON</h3>
+            <div className="ui comments">{conReviews}</div>
+          </div>
+        </div>
       </div>
     );
   }
