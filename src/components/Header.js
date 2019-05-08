@@ -30,7 +30,7 @@ const SecondaryMenu = () => {
         <div className="search item">
           <div className="ui action input">
             <input type="text" placeholder="Search..." />
-            <button class="ui button">Search</button>
+            <button className="ui button">Search</button>
           </div>
         </div>
         <a className="item">

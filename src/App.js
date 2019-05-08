@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="ui fluid grid">
         <Header />
         <PageBody catalogData={this.state.catalogData} />
       </div>
