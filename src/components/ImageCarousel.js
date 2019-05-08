@@ -9,14 +9,23 @@ class ImageCarousel extends Component {
       return <div />;
     } else {
       return (
-        <Carousel>
+        <Carousel showArrows={true}>
           <div>
             <img
               className="ui fluid image"
-              alt=""
+              alt="Primary"
               src={images[0].PrimaryImage[0].image}
             />
           </div>
+          {images[0].AlternateImages.map((image, index) => (
+            <div key={index}>
+              <img
+                className="ui fluid image"
+                alt="aternate-{index}"
+                src={image.image}
+              />
+            </div>
+          ))}
         </Carousel>
       );
     }

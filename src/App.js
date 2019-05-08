@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="ui content">
         <Header />
         <PageBody catalogData={this.state.catalogData} />
       </div>
