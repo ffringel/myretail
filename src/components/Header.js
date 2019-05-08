@@ -26,15 +26,13 @@ const SecondaryMenu = () => {
         <i className="list icon" />
         shop all categories
       </a>
-      <div className="ui icon input">
-        <a className=" item">
-          <i className="search icon" />
-          search
-        </a>
-        <input type="text" placeholder="Search..." />
-        <i className="search icon" />
-      </div>
-      <div className="right item">
+      <div className="right menu">
+        <div className="search item">
+          <div className="ui action input">
+            <input type="text" placeholder="Search..." />
+            <button class="ui button">Search</button>
+          </div>
+        </div>
         <a className="item">
           <i className="cart icon" />
           your cart
