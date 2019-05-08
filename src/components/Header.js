@@ -21,18 +21,18 @@ const MainMenu = () => {
 //function to render the secondary menu
 const SecondaryMenu = () => {
   return (
-    <div className="ui secondary inverted menu">
+    <div className="ui red three item secondary inverted menu">
       <a className="item">
         <i className="list icon" />
         shop all categories
       </a>
-      <div className="right menu">
-        <div className="search item">
-          <div className="ui action input">
-            <input type="text" placeholder="Search..." />
-            <button className="ui button">Search</button>
-          </div>
+      <div className="search item">
+        <div className="ui icon input">
+          <input type="text" placeholder="Search..." />
+          <i className="ui search icon" />
         </div>
+      </div>
+      <div className="right menu">
         <a className="item">
           <i className="cart icon" />
           your cart
