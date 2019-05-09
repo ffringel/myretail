@@ -21,7 +21,7 @@ class ImageCarousel extends Component {
             <div key={index}>
               <img
                 className="ui fluid image"
-                alt="aternate-{index}"
+                alt="aternate"
                 src={image.image}
               />
             </div>

@@ -80,7 +80,7 @@ describe("App's components are loaded and rendered", () => {
 });
 
 // check for the presence of a child component
-it("renders <PageBody /> component", () => {
+it("check if an ImageCarousel component is present in PageBody", () => {
   const wrapper = shallow(<PageBody catalogData="data" />);
   expect(wrapper.find(ImageCarousel)).to.have.lengthOf(1);
 });
