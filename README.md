@@ -24,6 +24,9 @@ myRetail is comparing solution options for the online grocery store. Create a we
 
 ## Running the Code
 
+- Clone this repository and navigate to it's root
+- Run 'npm install' to install dependencies
+
 ## Testing
 
 ## Optimizations
