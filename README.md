@@ -26,7 +26,13 @@ myRetail is comparing solution options for the online grocery store. Create a we
 
 - Clone this repository and navigate to it's root
 - Run `npm install` to install dependencies
+- Start application by running `npm start`
+- Open [http://localhost:3000](http://localhost:3000) to view app in browser
+
+### Visit [https://sleepy-plateau-35486.herokuapp.com/](https://sleepy-plateau-35486.herokuapp.com/) to see running instance of app
 
 ## Testing
+
+- Run `npm test'
 
 ## Optimizations
