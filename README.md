@@ -33,6 +33,6 @@ myRetail is comparing solution options for the online grocery store. Create a we
 
 ## Testing
 
-- Run `npm test'
+- Run `npm test`
 
 ## Optimizations
