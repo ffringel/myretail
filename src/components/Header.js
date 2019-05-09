@@ -3,7 +3,7 @@ import React from "react";
 //function to render main menu
 const MainMenu = () => {
   return (
-    <div className="ui red seven item inverted menu">
+    <div className="ui red seven item borderless inverted menu">
       <div className="header item">
         sign in / account
         <i className="angle down icon" />
