@@ -22,14 +22,20 @@ myRetail is comparing solution options for the online grocery store. Create a we
 - Provide approach to deploy code in live environment - continuous delivery flow diagram will suffice.
 - Store code in a public git repository like GitHub, GitLab, BitBucket, or Visual Studio Team Services and forward link to Staffing Specialist and Recruiter.
 
-## Running the Code
+## Using the App
+
+I built the app using an api driven architecture. There are two parts; the backend (powered by Express) which provides data via a REST API and the React front end which consumes this data and renders it. You can tryout the app in the following ways:
+
+### 1. Visit: [https://sleepy-plateau-35486.herokuapp.com/](https://sleepy-plateau-35486.herokuapp.com/)
+
+###  2. Build the App
 
 - Clone this repository and navigate to it's root
 - Run `npm install` to install dependencies
-- Start application by running `npm start`
+- Start app by running `npm start`
 - Open [http://localhost:3000](http://localhost:3000) to view app in browser
 
-### Visit [https://sleepy-plateau-35486.herokuapp.com/](https://sleepy-plateau-35486.herokuapp.com/) to see running instance of app
+
 
 ## Testing
 
