@@ -24,7 +24,7 @@ myRetail is comparing solution options for the online grocery store. Create a we
 
 ## Using the App
 
-I built the app using an api driven architecture. There are two parts; the backend (powered by Express) which provides data via a REST API and the React front end which consumes this data and renders it. You can tryout the app in the following ways:
+I built the app using an API driven architecture. There are two parts; the backend (powered by Express [https://github.com/ffringel/myserver](https://github.com/ffringel/myserver)) hosted at [https://salty-forest-26637.herokuapp.com/](https://salty-forest-26637.herokuapp.com/) which provides data via a REST API and the React front end which consumes this data and renders it. You can tryout the app in the following ways:
 
 ### 1. Visit: [https://sleepy-plateau-35486.herokuapp.com/](https://sleepy-plateau-35486.herokuapp.com/)
 
@@ -35,7 +35,7 @@ I built the app using an api driven architecture. There are two parts; the backe
 - Start app by running `npm start`
 - Open [http://localhost:3000](http://localhost:3000) to view app in browser
 
-
+**NB:** The app retrieves the JSON data from the REST API which runs on Heroku so you need to be online even when running the app locally. Server  code can be found here [https://github.com/ffringel/myserver](https://github.com/ffringel/myserver)
 
 ## Testing
 
