@@ -39,6 +39,8 @@ I built the app using an API driven architecture. There are two parts; the backe
 
 ## Testing
 
+After installing dependencies with `npm install`
+
 - Run `npm test`
 
 ## CI/CD
