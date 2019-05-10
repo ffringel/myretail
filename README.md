@@ -35,4 +35,6 @@ myRetail is comparing solution options for the online grocery store. Create a we
 
 - Run `npm test`
 
-## Optimizations
+## CI/CD
+
+CI/CD has been configured such that for every push to this repo, Travis CI runs the tests, and if all tests pass, it gets deployed automatically to the Heroku cloud.
